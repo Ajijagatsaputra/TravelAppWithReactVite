@@ -10,16 +10,16 @@ import Img6 from "../../assets/places/place6.jpg";
 const PlacesData = [
   {
     img: Img1,
-    title: "Boat",
-    location: "USA",
+    title: "Candi Borobudur",
+    location: "Sleman, Yogyakarta",
     description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    price: 6700,
+    price: 50000,
     type: "Cultural Relax",
   },
   {
     img: Img2,
-    title: "Taj Mahal",
-    location: "India",
+    title: "Pantai Pandawa",
+    location: "Bali",
     description:
       "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
     price: 6700,
@@ -27,8 +27,8 @@ const PlacesData = [
   },
   {
     img: Img3,
-    title: "Underwater",
-    location: "US",
+    title: "Monas",
+    location: "Jakarta",
     description:
       "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
     price: 6200,
@@ -36,16 +36,16 @@ const PlacesData = [
   },
   {
     img: Img4,
-    title: "Sydney",
-    location: "USA",
+    title: "Danau Toba",
+    location: "Sumatera Utara",
     description: "lorem ipsum dolor sit amet consectetur adipisicing elit.",
     price: 6700,
     type: "Cultural Relax",
   },
   {
     img: Img5,
-    title: "Los Angeles",
-    location: "United states",
+    title: "Malioboro",
+    location: "Yogyakarta, Jawa Tengah",
     description:
       "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
     price: 6700,
@@ -53,8 +53,8 @@ const PlacesData = [
   },
   {
     img: Img6,
-    title: "Los Vegas",
-    location: "California",
+    title: "Gunung Bromo",
+    location: "Malang, Jawa Timur",
     description:
       "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the river Yamuna in the Indian city of Agra.",
     price: 6200,
@@ -68,7 +68,7 @@ const Places = ({ handleOrderPopup }) => {
       <div className="dark:bg-gray-900 dark:text-white bg-gray-50 py-10">
         <section data-aos="fade-up" className="container ">
           <h1 className=" my-8 border-l-8 border-primary/50 py-2 pl-2 text-3xl font-bold">
-            Best Places to Visit
+          Rekomendasi Wisata Terbaik
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {PlacesData.map((item, index) => (

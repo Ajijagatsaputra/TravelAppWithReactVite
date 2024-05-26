@@ -12,7 +12,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup }) => {
             <div className="flex items-center justify-between">
               <div>
                 <h1 className="text-xl font-semibold text-black/70">
-                  Book Your Trip
+                  Pesan Tempat Wisata
                 </h1>
               </div>
               <div>
@@ -22,7 +22,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup }) => {
                 />
               </div>
             </div>
-            {/* Body */}
+            {/* BodyBooking */}
             <div className="mt-4">
               <input
                 type="text"
@@ -41,7 +41,7 @@ const OrderPopup = ({ orderPopup, setOrderPopup }) => {
               />
               <div className="flex justify-center">
                 <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-1 px-4 rounded-full ">
-                  Book Now
+                  Beli Tiket
                 </button>
               </div>
             </div>

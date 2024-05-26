@@ -8,15 +8,12 @@ const Hero = () => {
       <div className="h-full flex justify-center items-center p-4 bg-primary/10">
         <div className="container grid grid-cols-1 gap-4">
           <div className="text-white">
-            <p data-aos="fade-up" className="text-sm">
-              Our Packages
-            </p>
             <p
               data-aos="fade-up"
               data-aos-delay="300"
               className="font-bold text-3xl"
             >
-              Search Your Destination
+              Ayo Cari Destinasi Wisatamu
             </p>
           </div>
           <div
@@ -27,7 +24,7 @@ const Hero = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 py-3">
               <div>
                 <label htmlFor="destination" className="opacity-70">
-                  Searh your Destination
+                  Search 
                 </label>
                 <input
                   type="text"
@@ -51,7 +48,7 @@ const Hero = () => {
               <div>
                 <label htmlFor="destination" className="opacity-70 block">
                   <div className="w-full flex justify-between items-center">
-                    <p>Max Price</p>
+                    <p>Harga</p>
                     <p className="font-bold text-xl">$ {priceValue}</p>
                   </div>
                 </label>

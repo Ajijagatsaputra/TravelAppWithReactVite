@@ -25,22 +25,23 @@ const Banner = () => {
                   data-aos="fade-up"
                   className="text-3xl sm:text-4xl font-bold"
                 >
-                  Explore all corners of The world with us
+                  Mari Jelajahi Alam Negeri Ini dengan Berwisata
                 </h1>
                 <p
                   data-aos="fade-up"
                   className="text-sm text-gray-500 tracking-wide leading-8"
                 >
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio ratione ex alias quis magni at optio
+                  Daya Tarik wisata budaya dapat berupa tempat bersejarah, tempat peristiwa bersejarah
+                  yang penting , monumen , kuil kuno , kebun binatang , akuarium , museum dan galeri seni , kebun raya , bangunan dan struktur 
+                  (seperti benteng , istana , perpustakaan , bekas penjara , gedung pencakar langit , jembatan ). , taman hiburan dan karnaval , 
+                  museum sejarah hidup , seni publik ( patung , arca , mural ), komunitas etnis enclave , kereta api bersejarah dan acara budaya.
                   <br />
                 </p>
                 <div data-aos="zoom-in" className="grid grid-cols-2 gap-6">
                   <div className="space-y-6">
                     <div className="flex items-center gap-4">
                       <MdFlight className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400" />
-                      <p>Flight</p>
+                      <p>Penerbangan</p>
                     </div>
                     <div className="flex items-center gap-4">
                       <MdOutlineLocalHotel className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 dark:bg-orange-400" />
@@ -54,7 +55,7 @@ const Banner = () => {
                     </div>
                     <div className="flex items-center gap-4">
                       <IoFastFoodSharp className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />
-                      <p>Foods</p>
+                      <p>Makanan & minuman</p>
                     </div>
                   </div>
                 </div>

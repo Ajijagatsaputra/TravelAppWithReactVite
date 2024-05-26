@@ -7,7 +7,7 @@ const Location = () => {
       <section data-aos="fade-up" className="">
         <div className="container my-4">
           <h1 className="inline-block border-l-8 border-primary/50 py-2 pl-2 mb-4 text-xl font-bold sm:text-3xl">
-            Location to visit
+            Lokasi Wisata
           </h1>
 
           <div className="rounded-xl ">
@@ -17,7 +17,7 @@ const Location = () => {
               height="360"
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
               style={{ borderRadius: "20px" }}
             ></iframe>
           </div>
