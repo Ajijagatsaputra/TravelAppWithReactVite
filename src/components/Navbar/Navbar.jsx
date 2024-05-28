@@ -4,6 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 import { FaCaretDown } from "react-icons/fa";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
+import LoginPopup from "../OrderPopup/LoginPopup";
 
 export const NavbarLinks = [
   {
@@ -26,25 +27,27 @@ export const NavbarLinks = [
 
 const DropdownLinks = [
   {
-    name: "Our Services",
+    name: "Pelayanan",
     link: "/#services",
   },
   {
-    name: "Top Brands",
+    name: "Wisata Terbaik",
     link: "/#mobile_brands",
   },
   {
-    name: "Location",
+    name: "Lokasi Wisata",
     link: "/#location",
   },
 ];
 
-const Navbar = ({ handleOrderPopup }) => {
+const Navbar = ({ handleOrderPopup}) => {
   const [showMenu, setShowMenu] = useState(false);
+  const [open, setOpen] = useState(false)
 
   const toggleMenu = () => {
-    setShowMenu(!showMenu);
+    setShowMenu(showMenu);
   };
+
   return (
     <>
       <nav className="fixed top-0 right-0 w-full z-50 bg-white backdrop-blur-sm text-black shadow-md">
@@ -83,7 +86,7 @@ const Navbar = ({ handleOrderPopup }) => {
                     href="/#home"
                     className="flex h-[72px] items-center gap-[2px]"
                   >
-                    Quick Links{" "}
+                     Service{" "}
                     <span>
                       <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
                     </span>
@@ -116,9 +119,7 @@ const Navbar = ({ handleOrderPopup }) => {
               </button>
               <button
                 className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full"
-                onClick={() => {
-                  handleOrderPopup();
-                }}
+                onClick={()=> setOpen(true)}
               >
                 Login
               </button>
@@ -143,6 +144,7 @@ const Navbar = ({ handleOrderPopup }) => {
         </div>
         <ResponsiveMenu setShowMenu={setShowMenu} showMenu={showMenu} />
       </nav>
+      {open && <LoginPopup setOpen={setOpen} />}
     </>
   );
 };
