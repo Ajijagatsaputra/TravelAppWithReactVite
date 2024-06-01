@@ -13,8 +13,9 @@ const Hero = () => {
               data-aos-delay="300"
               className="font-bold text-3xl"
             >
-              Ayo Cari Destinasi Wisatamu
+              Selamat Datang di HealingGo
             </p>
+            <p>Ayo cari tempat wisata terbaikmu</p>
           </div>
           <div
             data-aos="fade-up"
@@ -30,7 +31,7 @@ const Hero = () => {
                   type="text"
                   name="destination"
                   id="destination"
-                  placeholder="Dubai"
+                  placeholder="ayo kunjungi"
                   className="w-full bg-gray-100 my-2 range accent-primary focus:outline-primary focus:outline outline-1 rounded-full p-2"
                 />
               </div>

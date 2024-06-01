@@ -9,7 +9,6 @@ import BannerPic from "../components/BannerPic/BannerPic";
 import BannerImg from "../assets/cover-women.jpg";
 import Banner2 from "../assets/travel-cover2.jpg";
 import OrderPopup from "../components/OrderPopup/OrderPopup";
-// import LoginPopup from "../components/OrderPopup/LoginPopup";
 
 const Home = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
