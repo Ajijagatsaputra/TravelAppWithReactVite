@@ -26,17 +26,22 @@ const OrderPopup = ({ orderPopup, setOrderPopup }) => {
             <div className="mt-4">
               <input
                 type="text"
-                placeholder="Name"
+                placeholder="Nama"
                 className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
               />
               <input
                 type="email"
-                placeholder="email"
+                placeholder="Email"
                 className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
               />
               <input
                 type="text"
-                placeholder="Address"
+                placeholder="Alamat Wisata"
+                className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
+              />
+              <input
+                type="text"
+                placeholder="Wisata yang dikunjungi"
                 className="w-full rounded-full border border-gray-300 dark:border-gray-500 dark:bg-gray-800 px-2 py-1 mb-4"
               />
               <div className="flex justify-center">

@@ -1,5 +1,5 @@
 import React from "react";
-import FooterLogo from "../../assets/logo.png";
+import FooterLogo from "../../assets/HealingGo.jpeg";
 import {
   FaFacebook,
   FaInstagram,
@@ -48,19 +48,14 @@ const Footer = () => {
                 <img src={FooterLogo} alt="" className="max-h-[60px]" />
                 {/* TravelloGo */}
               </h1>
-              <p className="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                facere ab hic accusamus omnis dolor voluptatibus illo, tempore
-                eum tenetur.
-              </p>
               <br />
               <div className="flex items-center gap-3 ">
                 <FaLocationArrow />
-                <p>Noida, Uttar Pradesh</p>
+                <p>HealingGo, Indonesia</p>
               </div>
               <div className="flex items-center gap-3 mt-3">
                 <FaMobileAlt />
-                <p>+91 123456789</p>
+                <p>+6285647492399</p>
               </div>
               {/* social handles */}
               <div>
@@ -81,7 +76,7 @@ const Footer = () => {
               <div>
                 <div className="py-8 px-4">
                   <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
-                    Important Links
+                    Services Link
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
@@ -98,31 +93,12 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div>
-                <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
-                    Important Links
-                  </h1>
-                  <ul className="flex flex-col gap-3">
-                    {FooterLinks.map((link) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-gray-200">
-                        <Link
-                          to={link.link}
-                          onClick={() => window.scrollTo(0, 0)}
-                        >
-                          <span>&#11162;</span>
-                          <span>{link.title}</span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+              
             </div>
           </div>
           <div>
             <div className="text-center py-5 border-t-2 border-gray-300/50 bg-primary text-white">
-              @copyright 2024 All rights reserved || HealingGo ❤️ 
+              @copyright 2024 All rights reserved || HealingGo
             </div>
           </div>
         </div>

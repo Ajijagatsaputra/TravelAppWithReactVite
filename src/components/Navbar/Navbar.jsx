@@ -26,17 +26,14 @@ export const NavbarLinks = [
 ];
 
 const DropdownLinks = [
-  {
-    name: "Pelayanan",
-    link: "/#services",
-  },
+
   {
     name: "Wisata Terbaik",
-    link: "/#mobile_brands",
+    link: "/best-places",
   },
   {
     name: "Lokasi Wisata",
-    link: "/#location",
+    link: "/about",
   },
 ];
 
@@ -78,7 +75,7 @@ const Navbar = ({ handleOrderPopup}) => {
                 </li>
                 <li className="py-4">
                   <NavLink to="/about" activeClassName="active">
-                    About
+                    Tentang Kami
                   </NavLink>
                 </li>
                 <li className="group relative cursor-pointer">
